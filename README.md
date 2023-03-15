@@ -10,7 +10,7 @@ Here is the link to my presentation video from Panopto:
 https://ual.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=f62e8113-6524-497c-80ee-afc6016c24a3&start=0
 
 
-# Introduction: 
+# Introduction
 
 Hello mate, this is Readme file of my coding2 final project. I made an audio visualization program based on my favorite song using OpenFramework. The project uses the libraries included in OpenFramework and OfxOpenCV library.
 
@@ -18,7 +18,7 @@ I first created a 3D graphics stack with particles, then imported and processed 
 
 Then, I added the ofVideoGrabber function to capture images from the computer camera and used OfxOpenCV to analyse the changes in the images, linking them to the song's playback speed.
 
-# Process Record: 
+# Process Record
 
 During the process of creating this project, I encountered many difficulties, but I learned a lot of new knowledge by solving them step by step. At first, I only had a rough idea of wanting to create a music visualization project, but inspired by my classmates, I decided to add the function of capturing camera images to enrich my project.
 
@@ -31,7 +31,7 @@ So, I gave up on the idea of calculating the length of the skeleton and instead 
 Furthermore, during the coding process, I encountered some small difficulties that I overcame. For example, the default libraries were unable to solve some problems, so I had to manually import some libraries and learn how to use them. Additionally, there were issues with image display because there were many parts in my draw function, and they had a certain order that needed to be arranged properly for the image to be displayed correctly. Initially, I didn't understand why the colour of each part was the same, but after questioning and reflection, I realized that I needed to reset the colour before drawing each part because the code compilation had a strict sequence.
 
 
-# Project Summary: 
+# Project Summary
 
 The changes in music are controlled by images in the camera, indirectly controlling the visualized grid of the song. This allows us to freely use our bodies to control everything. When we are still, the music and images play at a normal speed, but when we move, they begin to change. The faster our movements, the stronger the distortion in the music and images. Typically, we dance to the beat of the music, but in my project, the music changes with the beat of our dance, which is its highlight. The changes in the images also enhance the visual effects.
 
